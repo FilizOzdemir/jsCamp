@@ -8,7 +8,6 @@ function findPrime(...numbers) {
 
     }else{
       for (let j = 2; j < numbers[i]; j++) {
-     
         if(numbers[i]%j==0 ){
          isPrime=false;
          break;
@@ -16,7 +15,7 @@ function findPrime(...numbers) {
       }
     }
    if(isPrime){
-    console.log(numbers[i] + " sayisi asal sayidir.");
+    console.log(numbers[i] + " sayisi asal sayidirrr.");
    }else{
     console.log(numbers[i] + " sayisi asal sayi değildir.");
    }
